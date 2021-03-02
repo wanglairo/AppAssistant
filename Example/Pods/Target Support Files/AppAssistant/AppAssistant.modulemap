@@ -1,0 +1,6 @@
+framework module AppAssistant {
+  umbrella header "AppAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "AppAssistant",
+  "version": "0.1.0",
+  "summary": "A short description of AppAssistant.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanglai/AppAssistant",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanglai": "wanglai@ccclubs.com"
+  },
+  "source": {
+    "git": "https://github.com/wanglai/AppAssistant.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "AppAssistant/Src/**/**/*.{h,m,c,mm,swift}",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  },
+  "resource_bundles": {
+    "AppAssistant": "AppAssistant/Resource/**/*"
+  },
+  "frameworks": [
+    "QuartzCore",
+    "UIKit"
+  ],
+  "vendored_frameworks": "framework/*.framework",
+  "dependencies": {
+    "FBRetainCycleDetector": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

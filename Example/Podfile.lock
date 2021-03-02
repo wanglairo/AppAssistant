@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AppAssistant (0.1.0):
+    - FBRetainCycleDetector
+    - SnapKit
+  - FBRetainCycleDetector (0.1.4)
+  - Moya (14.0.0-alpha.1):
+    - Moya/Core (= 14.0.0-alpha.1)
+  - Moya/Core (14.0.0-alpha.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - SnapKit (4.2.0)
+  - SwiftLint (0.42.0)
+
+DEPENDENCIES:
+  - AppAssistant (from `../`)
+  - Moya (~> 14.0.0-alpha.1)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBRetainCycleDetector
+    - Moya
+    - Result
+    - SnapKit
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  AppAssistant:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppAssistant: 74696a2286d151d905256b211efae4078010225c
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  Moya: 65485239114b3b327a17dc2e839f6c8b7143aae9
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+
+PODFILE CHECKSUM: a3592559df074bec992190b60173b877298b979a
+
+COCOAPODS: 1.8.4

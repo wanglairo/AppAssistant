@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AppAssistant_Example' do
+
+  script_phase :name => 'SwiftLint', :script => '${PODS_ROOT}/SwiftLint/swiftlint'
+  
+  pod 'AppAssistant', :path => '../', :inhibit_warnings => false
+  pod 'Moya', '~> 14.0.0-alpha.1'
+  pod 'SwiftLint'
+  
+  target 'AppAssistant_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
